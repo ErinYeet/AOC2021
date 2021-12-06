@@ -14,8 +14,6 @@ for t in range(80):
             fish.append(8)
         else:
             fish[x] = fish[x] - 1
-    if t%7 == 0:
-        print(len(fish))
 print(len(fish))
 
 
